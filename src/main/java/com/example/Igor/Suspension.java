@@ -1,6 +1,6 @@
 package com.example.Igor;
 
-// Suspension.java
+
 public class Suspension {
     private Hinge hinge;
     private Differential differential;
