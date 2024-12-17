@@ -6,7 +6,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Main {
     public static void main(String[] args) {
-        // Способ 1: Внедрение через конструктор
+        //  Внедрение через конструктор
         Wheel wheel = new Wheel();
         Starter starter = new Starter();
         SparkPlug sparkPlug = new SparkPlug();
@@ -23,7 +23,7 @@ public class Main {
 //        Car car = context.getBean("car", Car.class);
 //        System.out.println(car);
        //3 Внедрение зависимостей через XML + Java аннотации
-//        ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
+//       ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
 //        Car car = context.getBean(Car.class);
 //        System.out.println(car);
     }
