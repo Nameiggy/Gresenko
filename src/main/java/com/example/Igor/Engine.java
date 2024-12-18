@@ -1,10 +1,13 @@
 package com.example.Igor;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
+@Component
 public class Engine {
     private Starter starter;
     private SparkPlug sparkPlug;
-
+    @Autowired
     public Engine(Starter starter, SparkPlug sparkPlug) {
         this.starter = starter;
         this.sparkPlug = sparkPlug;

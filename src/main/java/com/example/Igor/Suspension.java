@@ -1,10 +1,13 @@
 package com.example.Igor;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
+@Component
 public class Suspension {
     private Hinge hinge;
     private Differential differential;
-
+    @Autowired
     public Suspension(Hinge hinge, Differential differential) {
         this.hinge = hinge;
         this.differential = differential;
