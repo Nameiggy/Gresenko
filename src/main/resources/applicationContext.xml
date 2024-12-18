@@ -33,7 +33,7 @@
        http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <!-- Включение сканирования компонентов в пакете -->
+
     <context:component-scan base-package="com.example.Igor"/>
 
 </beans>
